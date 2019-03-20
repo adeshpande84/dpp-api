@@ -1,0 +1,20 @@
+{
+  "name": "diabetes-prevention-program-api",
+  "version": "1.0.0",
+  "description": "APIs called by the DPP UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fluent Health",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "hapi": "^16.4.3",    
+    "lodash": "^4.17.4",
+    "mssql": "^4.0.4",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6",
+    "ldapjs": "^1.0.2"
+  }
+}
